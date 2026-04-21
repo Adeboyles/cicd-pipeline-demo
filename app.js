@@ -4,7 +4,7 @@ const PORT = 3000;
 
 app.get('/', (req, res) => {
     res.json({
-        message: 'Hello, from Boyles! CI/CD Pipeline is live and running',
+        message: 'Pipeline v2 - automatically deployed',
         version: process.env.APP_VERSION || '1.0.0'
     });
 });
